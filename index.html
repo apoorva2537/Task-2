@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Display</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    import Products
+    <div class="import-section">
+      <div class="Step1">
+        <p>Step1:</p>
+      </div>
+      <div class="file">
+        <label for="fileInput" accept=".json, .csv">Select File</label>
+        <br /><br />
+        <input type="file" id="fileInput" />
+
+        <br /><br />
+        SupportedFiles Type(s):.CSV,.JSON
+      </div>
+    </div>
+
+    <div class="abcd">
+      <div class="step2">Step 2:</div>
+      <div class="info">
+        Specify Format
+        <br /><br />
+        <form id="fileInputForm">
+          <table>
+            <tr>
+              <td>File Type:</td>
+              <td>
+                <select id="fileType" name="fileType">
+                  <option value="csv">CSV</option>
+                  <option value="json">JSON</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Character Encoding</td>
+              <td>
+                <input
+                  type="text"
+                  id="characterEncoding"
+                  name="characterEncoding"
+                  value="UTF-8"
+                  readonly
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Delimiter:</td>
+              <td>
+                <select id="delimiter" name="delimiter">
+                  <option value=",">Comma</option>
+                  <option value=";">Semicolon</option>
+                  <option value="|">Pipe</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Has Header:</td>
+              <td><input type="checkbox" id="hasHeader" name="hasHeader" /></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+    <div class="three">
+      <input type="checkbox" id="hasHeader" name="hasHeader" />Step 3: Display
+      Handling
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

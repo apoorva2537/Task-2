@@ -1,0 +1,46 @@
+.import-section {
+  margin-top: 20px;
+  height: 200px;
+  width: 750px;
+}
+.Step1 {
+  width: 100px;
+  float: left;
+  height: 200px;
+  margin-left: 50px;
+}
+.file {
+  position: relative;
+  float: right;
+  width: 600px;
+  margin-top: 20px;
+}
+.abc {
+  float: right;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.abcd {
+  float: right;
+  width: 750px;
+  height: 200px;
+  margin-top: -200px;
+}
+.step2 {
+  width: 50px;
+  height: 200px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.info {
+  width: 650px;
+  height: 20px;
+  float: right;
+  margin-top: -200px;
+}
+.three {
+  width: 500;
+  height: 300px;
+  margin-top: 20px;
+}
